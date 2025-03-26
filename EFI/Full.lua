@@ -38,7 +38,7 @@ local
 	input,
 	internetExecute =
 
-	"MyOpenComputer EFI",
+	"MineOS EFI",
 	"Change label",
 	"key_down",
 	"component_added",
