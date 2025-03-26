@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/Ki5bX0I.gif)
 
-[English](https://github.com/NanoScorpion1998/MineOS/main/README.md) | [Українська](https://github.com/NanoScorpion1998/MineOS/main/README-ua_UA.md) | [中文(简体)](https://github.com/NanoScorpion1998/MineOS/main/README-zh_CN.md) | Русский
+[English](https://github.com/NanoScorpion1998/MineOS/blob/main/README.md) | [Українська](https://github.com/NanoScorpion1998/MineOS/blob/main/README-ua_UA.md) | [中文(简体)](https://github.com/NanoScorpion1998/MineOS/blob/main/README-zh_CN.md) | Русский
 
 ## О системе
 
