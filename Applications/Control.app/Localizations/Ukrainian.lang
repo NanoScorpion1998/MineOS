@@ -1,0 +1,24 @@
+{
+	moduleDisk = "Диски",
+	moduleRAM = "Пам'ять",
+	moduleEvent = "Події",
+	moduleLua = "Інтерпретатор Lua",
+
+	diskLabel = "Ім'я диска",
+	bootable = "Завантажувальний",
+	of = "з",
+	free = "Вільно",
+	options = "Опції",
+	arguments = "Аргументи",
+	format = "Форматувати",
+	execute = "Виконати",
+	waitingEvents = "Очікування подій",
+	processingEnabled = "Обробка подій",
+	luaInfo = {
+		{color = 0x880000, text = _G._VERSION .. " Copyright (C) 1994-2017 Lua.org, PUC-Rio"},
+		"Введіть вираз і натисніть Enter, щоб виконати його",
+		"Використовуйте префікс \"=\", щоб вивести значення змінної",
+		" ",
+	},
+	luaType = "Введіть вираз тут"
+}
