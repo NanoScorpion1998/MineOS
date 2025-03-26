@@ -13,11 +13,11 @@ local EEPROMAddress, internetAddress, GPUAddress =
 component.invoke(GPUAddress, "bind", getComponentAddress("screen"))
 local screenWidth, screenHeight = component.invoke(GPUAddress, "getResolution")
 
-local repositoryURL = "https://raw.githubusercontent.com/NanoScorpion1998/MyOpenComputer/main/"
+local repositoryURL = "https://raw.githubusercontent.com/IgorTimofeev/MineOS/master/"
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
-local installerPath = "/MyOpenComputer installer/"
+local installerPath = "/MineOS installer/"
 local installerPicturesPath = installerPath .. "Installer/Pictures/"
 local OSPath = "/"
 
@@ -38,7 +38,7 @@ end
 
 local function title()
 	local y = math.floor(screenHeight / 2 - 1)
-	centrizedText(y, 0x2D2D2D, "MyOpenComputer")
+	centrizedText(y, 0x2D2D2D, "MineOS")
 
 	return y + 2
 end
@@ -242,7 +242,7 @@ window:addChild(GUI.panel(1, 1, window.width, window.height, 0xE1E1E1))
 
 -- Top menu
 local menu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0xF0F0F0, 0x787878, 0x3366CC, 0xE1E1E1))
-local installerMenu = menu:addContextMenuItem("MyOpenComputer", 0x2D2D2D)
+local installerMenu = menu:addContextMenuItem("MineOS", 0x2D2D2D)
 
 installerMenu:addItem("🗘", "Reboot").onTouch = function()
 	computer.shutdown(true)
@@ -544,7 +544,7 @@ addStage(function()
 
 	-- Renaming if possible
 	if not selectedFilesystemProxy.getLabel() then
-		selectedFilesystemProxy.setLabel("MyOpenComputer HDD")
+		selectedFilesystemProxy.setLabel("MineOS HDD")
 	end
 
 	local function switchProxy(runnable)
@@ -657,7 +657,7 @@ addStage(function()
 	workspace:draw()
 	
 	component.invoke(EEPROMAddress, "set", request(EFIURL))
-	component.invoke(EEPROMAddress, "setLabel", "MyOpenComputer EFI")
+	component.invoke(EEPROMAddress, "setLabel", "MineOS EFI")
 	component.invoke(EEPROMAddress, "setData", selectedFilesystemProxy.address)
 
 
