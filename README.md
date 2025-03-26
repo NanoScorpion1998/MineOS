@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/Ki5bX0I.gif)
 
-English | [中文(简体)](https://github.com/NanoScorpion1998/MyOpencomputer/blob/main/README-zh_CN.md) | [Русский](https://github.com/NanoScorpion1998/MyOpencomputer/blob/main/README-ru_RU.md)| [Українська](https://github.com/NanoScorpion1998/MyOpencomputer/blob/main/README-ua_UA.md)
+English | [中文(简体)](https://github.com/NanoScorpion1998/MineOS/main/README-zh_CN.md) | [Русский](https://github.com/NanoScorpion1998/MineOS/main/README-ru_RU.md)| [Українська](https://github.com/NanoScorpion1998/MineOS/main/README-ua_UA.md)
 
 ## About
 
@@ -27,7 +27,7 @@ The easiest way is to use default `pastebin` script. Insert an OpenOS floppy dis
 
 If for some reason pastebin website is not available to you, use alternative installation command:
 
-	wget -f https://raw.githubusercontent.com/NanoScorpion1998/MyOpencomputer/main/Installer/OpenOS.lua /tmp/installer.lua && /tmp/installer.lua
+	wget -f https://raw.githubusercontent.com/NanoScorpion1998/MineOS/main/Installer/OpenOS.lua /tmp/installer.lua && /tmp/installer.lua
 
 You can paste it to console using middle mouse button or Insert key (by default). After a moment, a nice system installer will be shown. You will be prompted to select your preferred language, boot volume (can be formatted if needed), create a user profile and customize some settings
 
