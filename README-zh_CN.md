@@ -1,5 +1,5 @@
 
-[English](https://github.com/IgorTimofeev/MineOS/) | 中文(简体) | [Русский](https://github.com/IgorTimofeev/MineOS/blob/master/README-ru_RU.md)
+[English](https://github.com/NanoScorpion1998/MineOS/blob/main/README.md) | 中文(简体) | [Русский](https://github.com/NanoScorpion1998/MineOS/blob/main/README-ru_RU.md) | [Українська](https://github.com/NanoScorpion1998/MineOS/blob/main/README-ua_UA.md)
 
 ## MineOS独立版现已发布!
 
