@@ -1,5 +1,5 @@
 {
-	alert_stargate_required = {"Ця програма потребує Stargate із мода "SGCraft""},
+	alert_stargate_required = "Ця програма потребує Stargate із мода \"SGCraft\"",
 	connect = "Підключитись",
 	disconnect = "Відключитись",
 	open_iris = "Відкрити Щит",
