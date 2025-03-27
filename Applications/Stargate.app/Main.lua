@@ -63,6 +63,8 @@ end
 
 ---------------------------------------------------------------------------------------------
 
+local y = 2 -- Ініціалізуємо змінну перед використанням
+
 workspace:addChild(GUI.label(x, y, width, 1, 0xEEEEEE, localization["energy_to_dial"]))
     :setAlignment(GUI.ALIGNMENT_HORIZONTAL_CENTER, GUI.ALIGNMENT_VERTICAL_TOP); y = y + 2
 workspace.fuelProgressBar = workspace:addChild(GUI.progressBar(x, y, width, 0xBBBBBB, 0x0, 0xEEEEEE, 100, true, true, "", "%")); y = y + 3
