@@ -15,7 +15,8 @@ local stargate = component.get("stargate")
 ---------------------------------------------------------------------------------------------
 
 local resources = filesystem.path(system.getCurrentScript())
-local localization = system.getLocalization(resources .. "Localizations/")
+local localizationPath = resources .. "Localizations/" -- Динамічний шлях до папки Localizations
+local localization = system.getLocalization(localizationPath)
 local pathToContacts = paths.user.applicationData .. "Stargate/Contacts.cfg"
 local contacts = {}
 local Ch1Image = image.load(resources .. "Ch1.pic")
@@ -107,7 +108,10 @@ local function updateContacts()
     end
 end
 
--- Додатковий функціонал, події та UI
+-- Ініціалізація ContactsComboBox
+workspace.contactsComboBox = workspace:addChild(GUI.comboBox(10, 10, 30, 3, 0x3C3C3C, 0xBBBBBB, 0x555555, 0x888888))
+
+-- Додатковий функціонал та події UI
 loadContacts()
 updateContacts()
 update()
