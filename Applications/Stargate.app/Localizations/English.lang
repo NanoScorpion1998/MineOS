@@ -1,5 +1,7 @@
 {
 	alert_stargate_required = "This program requires Stargate from mod \"SGCraft\"",
+	connected_to = "(Connected to ",
+	not_connected = "(Not_connected)",
 	connect = "Connect",
 	disconnect = "Disconnect",
 	open_iris = "Open Iris",
@@ -11,7 +13,7 @@
 	remove_contact = "Remove contact",
 	energy_to_dial = "Energy to dial",
 	exit = "Exit",
-	failed_to_dial = "Failed to dial:",
+	failed_to_dial = "Failed to dial: ",
 	type_address_here = "Type address here",
 	type_message_here = "Type message text here",
 	name = "Name",
