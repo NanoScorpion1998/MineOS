@@ -1,5 +1,7 @@
 {
-	alert_stargate_required = "Ця програма потребує Stargate із мода \"SGCraft\"",
+	alert_stargate_required = "Ця програма потребує Stargate із мода \"SGCraft\"", 
+	connected_to = "(Підключено до ",
+	not_connected = "(Не підключено)",
 	connect = "Підключитись",
 	disconnect = "Відключитись",
 	open_iris = "Відкрити Щит",
@@ -11,7 +13,7 @@
 	remove_contact = "Видалити контакт",
 	energy_to_dial = "Енергія для набору",
 	exit = "Вихід",
-	failed_to_dial = "Не вдалося набрати адресу:",
+	failed_to_dial = "Не вдалося набрати адресу: ",
 	type_address_here = "Введіть адресу тут",
 	type_message_here = "Введіть повідомлення тут",
 	name = "Ім'я",
