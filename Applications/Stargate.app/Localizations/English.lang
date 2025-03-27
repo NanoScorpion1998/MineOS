@@ -1,4 +1,4 @@
-return {
+{
 	alert_stargate_required = "This program requires Stargate from mod \"SGCraft\"",
 	connect = "Connect",
 	disconnect = "Disconnect",
